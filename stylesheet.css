@@ -1,0 +1,246 @@
+/* Hibaq Dahir, IT 201 BL, Project  */
+/* This project is a university/college for wed design.*/
+* {
+    box-sizing: border-box;
+  }
+#wrapper
+{
+    background-color: 33ccff;
+    min-width: 1200px;
+    max-width: 1480px;
+    margin: auto;
+}
+
+header{
+    background-color: #0080ff;
+    background-image: url(photo\ for\ background.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 150px;
+}
+body{
+    background-color: #33ccff;
+    color:#CCFF33;
+    font-family: "Courier new", monospace;
+}
+h1{
+    padding-top: 50px;
+    padding-left: 2em;
+}
+nav{
+    font-weight:bold;
+    padding: 1em;
+    float: left;
+    border-width:160px;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    border-style: outset;
+    border-color:#808080;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+nav a:link {
+    color: #FFA07A;
+}
+nav a:visited {
+    color: #66B2B2;
+}
+nav a:hover {
+    color: #F5E1C8;
+}
+nav ul{
+    padding-left:0px;
+    list-style-type: none;
+}
+table{
+    margin: auto;
+    width:60%;
+    border-style:solid;
+    border-width:1px;
+    border-color:#CCFF33;
+    border-collapse:collapse;
+    margin-bottom: 1em;
+}
+th{
+    padding: 5px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#CCFF33;
+}
+td{
+    padding: 5px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#CCFF33;
+}
+tr:nth-of-type(even) {
+    background-color:#696969;
+    border-style: solid;
+    border-width:1px;
+    border-color:#CCFF33;
+}
+form{
+    padding: 2em;
+}
+label{
+    float: left;
+    display: block;
+    font-weight:bold;
+    width:7em;
+    padding-right:2em;
+}
+input{
+    margin-bottom:1em;
+    margin-left:1.7em;
+    width:20em;
+}
+textarea{
+    margin-bottom:1em;
+    margin-left:1.7em;
+    width:13.5em;
+}
+.myButton{
+    margin-left:10em
+}
+caption{
+    margin:1em;
+    font-weight:bold;
+    font-size:120%;
+}
+footer{
+    background-color:#0080ff;
+    text-align:center;
+    font-size:.80em;
+    font-style:italic;
+    padding:1em;
+}
+main{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    margin-left: 160px;
+}
+img{
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: auto;
+    display: block;
+}
+.leftfloat{
+    float:left;
+    margin-right: 4em;
+}
+.clear{
+    clear:both;
+}
+#Mobile{
+    display:none;
+}
+#Desktop{
+    display: inline;
+}
+@media only screen and (max-width: 1024px)
+{
+    body{
+        margin: 0px;
+        padding:0px;
+    }
+    #wrapper{
+        width:100%;
+        min-width: 100 px;
+        margin:0px;
+        padding:0px;
+    }
+    heading{
+        padding:1px;
+    }
+    h1{
+        padding:1px;
+    }
+    nav{
+        float: none;
+        width:auto;
+        padding-left:2em;
+    }
+    nav a{
+        padding:0.2em;
+        margin-left:0.3em;
+        float:left;
+        width:23%;
+    }
+    main{
+        padding-top:2.5em;
+        padding-bottom:2.5em;
+        padding-left:1em;
+        padding-right:1em;
+        margin:0px;
+        font-size:90%;
+        float:clear;
+    }
+    img{
+        width:100%;
+        height:auto;
+    }
+    h2, h3, p, dl, main ul{
+        padding-left:2em;
+    }
+    .leftfloat{
+        margin-left:2em;
+        margin-bottom:1em;
+        float:left;
+        width:200px;
+    }
+    .clear{
+        padding-left:2em;
+    }
+    .myButton{
+        margin-left: 9em;
+    }
+}
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 2em;
+        padding-top: 0.25em;
+        padding-left: 1.5em;
+        width: 85%;
+        text-align: center;
+    }
+    nav-a{
+        padding: 0.5em;
+        margin-left: 0.5em;
+        float: left;
+        width: 35%;
+        min-width:6em;
+    }
+    main{
+        padding-top: 0px;
+    }
+    .leftfloat{
+        float: none;
+        display:none;
+    }
+    footer{
+        padding:0.5em;
+        display:none;
+    }
+    .h2clear{
+        margin:0px;
+        margin-left: 1.5em;
+    }
+    .mybutton{
+        margin-left: 1.5em;
+    }
+    .indent1{
+        margin-left: 5em;
+    }
+    #Mobile{
+        display:inline;
+    }
+    #Desktop{
+        display:none;
+    }
+}
